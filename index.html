@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b1e52f8020.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Desarrollo web freelancer</title>
+    <meta name="description" content="Mi nombre es Alberto Puet y esta es una pagina de mis servicios freelance ">
+    <!--Prefetch-->
+    <!--Prefetch-->
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preload" href="estilos.css" as="style">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#direc">Mis Servicios</a>
+                </li>
+                <li>
+                    <a href="#lenguajes">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="presentación">
+        <h2>Desarrollo web freelancer</h2>
+
+        <p><i class="fa-solid fa-user"></i>Alberto Puet</p>
+    </section>
+
+    <main class="contenido-principal sombra">
+
+        <h2 class="servicios-titulo" id="direc">Mis Servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3> Diseño
+                    <i class="fa-solid fa-pen-nib iconos"></i>
+                </h3>
+                <p>Quia, inventore minima! Consequuntur iste numquam velit dicta, ex saepe, perferendis quaerat
+                    consectetur
+                    dolor obcaecati et.</p>
+            </section>
+
+            <section class="servicio">
+                <h3> Responsive Design
+                    <i class="fa-solid fa-mobile iconos"></i>
+                </h3>
+                <p>Quia, inventore minima! Consequuntur iste numquam velit dicta, ex saepe, perferendis quaerat
+                    consectetur
+                    dolor obcaecati et.</p>
+            </section>
+
+            <section class="servicio">
+                <h3> E-commerce
+                    <i class="fa-solid fa-shop iconos"></i>
+                </h3>
+                <p>Quia, inventore minima! Consequuntur iste numquam velit dicta, ex saepe, perferendis quaerat
+                    consectetur
+                    dolor obcaecati et.</p>
+            </section>
+
+        </div>
+
+        <hr>
+
+        <section>
+            <h2 class="lenguajes-titulo" id="lenguajes">Lenguajes que domino</h2>
+
+            <div class="lenguajes">
+
+                <img src="img/html.png" alt="html logo" class="html">
+
+                <img src="img/css.png" alt="css logo" class="css">
+
+                <img src="img/javascript.png" alt="javascript logo" class="javascript">
+            </div>
+        </section>
+
+        <section class="formulario" id="contacto">
+            <h2 class="form-titulo">Contacto</h2>
+            <form class="bg">
+                <fieldset>
+                    <legend class="indicacion">Contactame para saber más</legend>
+                    <div class="campos">
+                        <div class="campo">
+                            <label for="nombre">Ingrese su Nombre</label>
+                            <input type="text" id="nombre" placeholder="Nombre" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">Ingrese su Email</label>
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="textarea">Deja un mensaje</label>
+                            <textarea name="" id="textarea"></textarea>
+                        </div>
+
+                        <div class="campo">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados © - Alberto Puet</p>
+    </footer>
+</body>
+
+</html>
